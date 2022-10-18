@@ -15,7 +15,7 @@ Plug 'ryanoasis/vim-devicons'
 
 " Language Client
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-let g:coc_global_extensions = ['coc-emmet', 'coc-css', 'coc-html', 'coc-json', 'coc-prett
+let g:coc_global_extensions = ['coc-emmet', 'coc-css', 'coc-html', 'coc-json', 'coc-prettier']
 
 " TypeScript Highlighting
 Plug 'leafgarland/typescript-vim'

@@ -25,8 +25,8 @@ Plug 'peitalin/vim-jsx-typescript'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 
-" Comment  
-Plug 'chrisbra/vim-commentary'
+" Comment
+Plug 'preservim/nerdcommenter'
 
 " Initialize plugin system
 call plug#end()
@@ -39,6 +39,7 @@ set smartindent
 set nowrap
 set ruler
 set hlsearch
+filetype plugin on
 filetype indent on
 set shiftwidth=2
 set tabstop=2
@@ -109,3 +110,7 @@ function! OpenTerminal()
   resize 10
 endfunction
 nnoremap <c-n> :call OpenTerminal()<CR>
+
+" nerdcommenter
+nnoremap <c-_> :call NERDComment(0,"toggle")<CR>
+vnoremap <c-_> :call NERDComment(0,"toggle")<CR>

@@ -25,6 +25,9 @@ Plug 'peitalin/vim-jsx-typescript'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 
+" Comment  
+Plug 'chrisbra/vim-commentary'
+
 " Initialize plugin system
 call plug#end()
 

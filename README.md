@@ -4,6 +4,8 @@
 
 use both vim and neovim.
 
+### mac
+
 **vim**
 
 ```sh

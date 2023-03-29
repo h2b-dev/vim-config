@@ -2,4 +2,4 @@
 set -x # echo commands
 
 cp ~/.vimrc .
-cp -r ~/.config/nvim/init.vim .config/nvim/init.vim 
+cp -r ~/.config/nvim/init.vim init.vim

@@ -1,10 +1,26 @@
 # vim-config
 
-## [vim-plug](https://github.com/junegunn/vim-plug)
+- use [vim-plug](https://github.com/junegunn/vim-plug)
+- use both vim and neovim.
+- run `:PlugInstall` in both vim and neovim.
 
-use both vim and neovim.
+## path of configuration files
 
-### mac
+**mac**
+
+```sh
+~/.config/nvim/init.vim
+~/.vmirc
+```
+
+**windows**
+
+```sh
+~/AppData/Local/nvim/init.vim
+~/.vimrc
+```
+
+## install vim and neovim in mac
 
 **vim**
 

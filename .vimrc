@@ -1,4 +1,3 @@
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Specify a directory for plugins
 " - For Neovim: stdpath('data') . '/plugged'
 " - Avoid using standard Vim directory names like 'plugin'
@@ -27,6 +26,9 @@ Plug 'junegunn/fzf.vim'
 
 " Comment
 Plug 'preservim/nerdcommenter'
+
+" mini.nvim
+Plug 'echasnovski/mini.nvim', { 'branch': 'stable' }
 
 " Initialize plugin system
 call plug#end()
@@ -114,3 +116,4 @@ nnoremap <c-n> :call OpenTerminal()<CR>
 " nerdcommenter
 nnoremap <c-_> :call NERDComment(0,"toggle")<CR>
 vnoremap <c-_> :call NERDComment(0,"toggle")<CR>
+

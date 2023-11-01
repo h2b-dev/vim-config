@@ -1,8 +1,12 @@
 if exists('g:vscode')
     " VSCode extension
+
+    " share clipboard
+    set clipboard=unnamedplus
+
 else
     " ordinary Neovim
-   
+
     " Specify a directory for plugins
     " - For Neovim: stdpath('data') . '/plugged'
     " - Avoid using standard Vim directory names like 'plugin'
@@ -64,6 +68,7 @@ else
     " Remap escape
     inoremap jk <Esc>
 
+    " share clipboard
     set clipboard=unnamedplus
 
     " Enable theming support

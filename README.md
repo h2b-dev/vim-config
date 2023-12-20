@@ -20,7 +20,7 @@
 ~/.vimrc
 ```
 
-## install vim and neovim in mac
+## install vim-plug in mac
 
 **vim**
 
